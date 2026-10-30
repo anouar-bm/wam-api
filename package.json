@@ -9,7 +9,8 @@
     "prebuild": "node src/prebuild.js",
     "build": "esbuild src/index.js --target=es2017 --bundle --sourcemap --outdir=dist --format=esm",
     "postbuild": "dts-bundle-generator -o dist/index.d.ts src/index.ts --external-imports",
-    "doc": "typedoc --name \"WebAudioModules API\" --tsconfig ./tsconfig.json --out ./docs/typedoc --logLevel Verbose ./src/index.d.ts"
+    "doc": "typedoc --name \"WebAudioModules API\" --tsconfig ./tsconfig.json --out ./docs/typedoc --logLevel Verbose ./src/index.d.ts",
+    "test": "npm run build && node --test test/contract.test.mjs && tsc -p test/types"
   },
   "keywords": [
     "webaudio",
