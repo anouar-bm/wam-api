@@ -3,7 +3,8 @@
 		"moduleResolution": "node",
 		"baseUrl": "./",
 		"target": "es6",
-		"noEmit": true
+		"noEmit": true,
+		"types": []
 	},
 	"include": [
 	  "src/**/*"
