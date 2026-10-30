@@ -1,7 +1,7 @@
 {
-  "name": "@webaudiomodules/api",
-  "version": "2.0.0-alpha.6",
-  "description": "WebAudioModules Plugin API",
+  "name": "wam-api",
+  "version": "2.0.0-alpha.7-fork.0",
+  "description": "Unofficial fork of @webaudiomodules/api (Web Audio Modules 2.0 API), maintained by anouar-bm",
   "type": "module",
   "main": "dist/index.js",
   "types": "src/index.d.ts",
@@ -21,7 +21,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/%40webaudiomodules/api.git"
+    "url": "git+https://github.com/anouar-bm/wam-api.git"
   },
   "devDependencies": {
     "dts-bundle-generator": "^6.2.0",
@@ -30,10 +30,14 @@
     "typescript": "^4.5.3"
   },
   "bugs": {
-    "url": "https://github.com/%40webaudiomodules/api/issues"
+    "url": "https://github.com/anouar-bm/wam-api/issues"
   },
-  "homepage": "https://github.com/%40webaudiomodules/api#readme",
+  "homepage": "https://github.com/anouar-bm/wam-api#readme",
   "directories": {
     "doc": "docs"
-  }
+  },
+  "files": [
+    "dist",
+    "src"
+  ]
 }

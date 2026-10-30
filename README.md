@@ -1,3 +1,7 @@
+> **Unofficial fork.** `wam-api` is a fork of [`@webaudiomodules/api`](https://www.npmjs.com/package/@webaudiomodules/api) maintained by [anouar-bm](https://github.com/anouar-bm/wam-api). It is not published or endorsed by the WebAudioModules working group; use `@webaudiomodules/api` unless you need this fork.
+>
+> `2.0.0-alpha.7-fork.0` (dist-tag `beta`) ships the same runtime code as `@webaudiomodules/api@2.0.0-alpha.6`. Fixes land here first and are proposed upstream.
+
 # WebAudioModules API
 
 This repository includes API definition files for WebAudioModules (WAMs) written in TypeScript and abstract classes that conform to the API written in JavaScript. The API is designed for making web-based modular audio plugins and using them in compatible hosts.
