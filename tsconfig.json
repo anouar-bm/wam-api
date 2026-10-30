@@ -1,8 +1,9 @@
 {
 	"compilerOptions": {
-		"moduleResolution": "node",
-		"baseUrl": "./",
-		"target": "es6",
+		"module": "esnext",
+		"moduleResolution": "bundler",
+		"strict": false,
+		"target": "es2017",
 		"noEmit": true,
 		"types": []
 	},
