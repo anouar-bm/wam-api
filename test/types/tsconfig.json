@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"noEmit": true,
+		"target": "es2017",
+		"module": "esnext",
+		"moduleResolution": "node",
+		"lib": ["es2017", "dom"],
+		"types": [],
+		"baseUrl": ".",
+		"paths": {
+			"@webaudiomodules/api": ["../../src/index.d.ts"]
+		}
+	},
+	"files": ["consumer.ts"]
+}
