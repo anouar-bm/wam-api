@@ -1,6 +1,4 @@
 > **Unofficial fork.** `wam-api` is a fork of [`@webaudiomodules/api`](https://www.npmjs.com/package/@webaudiomodules/api) maintained by [anouar-bm](https://github.com/anouar-bm/wam-api). It is not published or endorsed by the WebAudioModules working group; use `@webaudiomodules/api` unless you need this fork.
->
-> `2.0.0-beta.0` ships the same API code as `@webaudiomodules/api@2.0.0-alpha.6`; only the reported version string differs. [`wam-sdk`](https://www.npmjs.com/package/wam-sdk) depends on this package. Fixes land here first and may be proposed upstream.
 
 # WebAudioModules API
 
