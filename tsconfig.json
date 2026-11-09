@@ -1,9 +1,11 @@
 {
 	"compilerOptions": {
-		"moduleResolution": "node",
-		"baseUrl": "./",
-		"target": "es6",
-		"noEmit": true
+		"module": "esnext",
+		"moduleResolution": "bundler",
+		"strict": false,
+		"target": "es2017",
+		"noEmit": true,
+		"types": []
 	},
 	"include": [
 	  "src/**/*"
